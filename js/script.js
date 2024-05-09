@@ -11,10 +11,7 @@ function validation() {
         alert('welcome ' + username);
         console.log(username);
     }
-
 } 
-
-
 // Section slide
 let indexslide = 1;
 showSlide(1);
@@ -44,4 +41,4 @@ function showSlide(index) {
 // auto slide
 setInterval(() => nextSlide(1), 2000);
 
-document.getElementById("send-btn").addEventListener('click', () => nextSlide(1))
+document.getElementById("send-btn").addEventListener('click', () => validation())
