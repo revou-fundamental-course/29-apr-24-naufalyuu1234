@@ -44,6 +44,9 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-image: url(/assets/1.jpg);
+    background-image: url(/assets/2.jpg);
+    background-image: url(/assets/3.jpg);
 }
 .item-right{
     background-color: rgb(214, 211, 211);
